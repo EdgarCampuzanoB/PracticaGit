@@ -1,3 +1,15 @@
 Comandos Git
 
+- git stash:   Descartar temporalmente los cambios
+
+Cuando se esta trabajando en una rama y se esea cambiar a otra, no se puede sin guardar
+los cambios por lo que se hace un commit, sin embargo se pueden descartar los cambios 
+temporalmente con:  git stash.
+
+Posteriormente para recuperar los cambios se utiliza el comando 
+- git stash pop
+
+-git bisect:   Encontrar errores.
+Este es el comando para encontrar cuando exactamente se introdujo un error en los archivos
+confirmando paso a paso por los cambios hechos si es bueno o malo, para encontrar el error.
 
