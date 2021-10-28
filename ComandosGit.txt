@@ -13,6 +13,20 @@ Posteriormente para recuperar los cambios se utiliza el comando
 Este es el comando para encontrar cuando exactamente se introdujo un error en los archivos
 confirmando paso a paso por los cambios hechos si es bueno o malo, para encontrar el error.
 
+-git remote: Mostrará los nombres de cada uno de los remotos que tienes especificados. 
+Si has clonado tu repositorio, deberías ver al menos origin (origen, en inglés) - este es el 
+nombre que por defecto Git le da al servidor del que has clonado.
+
+-git remote -v: Muestra las URLs que Git ha asociado al nombre y que serán usadas al leer y 
+escribir en ese remoto. Si tienes más de un remoto, el comando los listará todos. 
+
+-git remote add: Añadir un remoto nuevo y asociarlo a un nombre que puedas referenciar fácilmente, 
+se ejecuta git remote add [nombre] [url]
+
+- git fetch [remote-name]: irá al proyecto remoto y se traerá todos los datos que aun no tienes de dicho remoto. 
+Luego de hacer esto, tendrás referencias a todas las ramas del remoto, las cuales puedes combinar
+ e inspeccionar cuando quieras.
+
 Git Fork
 
 Un fork sirve para crear un copia de un repositorio en nuestra cuenta de usuario. el repositorio 
